@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5ea88a5.css",
-    "main.js": "/static/js/main.d77a4409.js",
-    "static/media/logo.svg": "/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
-    "index.html": "/index.html",
-    "main.a5ea88a5.css.map": "/static/css/main.a5ea88a5.css.map",
-    "main.d77a4409.js.map": "/static/js/main.d77a4409.js.map"
+    "main.css": "/CNC-website/static/css/main.a5ea88a5.css",
+    "main.js": "/CNC-website/static/js/main.543e81df.js",
+    "static/media/logo.svg": "/CNC-website/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "index.html": "/CNC-website/index.html",
+    "main.a5ea88a5.css.map": "/CNC-website/static/css/main.a5ea88a5.css.map",
+    "main.543e81df.js.map": "/CNC-website/static/js/main.543e81df.js.map"
   },
   "entrypoints": [
     "static/css/main.a5ea88a5.css",
-    "static/js/main.d77a4409.js"
+    "static/js/main.543e81df.js"
   ]
 }
