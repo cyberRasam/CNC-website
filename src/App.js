@@ -1,13 +1,6 @@
 import React from 'react';
-import {
-  Footer,
-  Blog,
-  Possibility,
-  Features,
-  CNCium,
-  Header,
-} from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { Footer, Blog, Possibility, Features, CNCium } from './containers';
+import { CTA, Brand, Navbar, Header } from './components';
 import './App.css';
 
 const App = () => {
