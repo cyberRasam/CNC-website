@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CNC-website/precache-manifest.8059bc37741b5e317368caf0786550bd.js"
+  "/CNC-website/precache-manifest.100264162fec0f7ec03f51ddbf934844.js"
 );
 
 workbox.clientsClaim();
