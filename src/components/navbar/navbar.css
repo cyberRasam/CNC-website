@@ -119,6 +119,7 @@
 @media screen and (max-width: 550px) {
     .cncium__navbar {
         padding: 2rem;
+        margin-bottom: -3rem;
     }
     .cncium__navbar-menu {
         display: flex;

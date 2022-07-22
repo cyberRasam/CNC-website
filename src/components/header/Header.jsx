@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import ai1 from '../../assets/ai1.png';
 
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
           <input type="email" placeholder="Your Email Address" />
           <button type="button">Contact request</button>
         </div>
+      </div>
+      <div className="cncium__header-content-image">
+        <img src={ai1} alt="cnc machine working" />
       </div>
     </div>
   );
