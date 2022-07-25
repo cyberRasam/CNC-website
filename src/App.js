@@ -1,6 +1,6 @@
 import React from 'react';
-import { Footer, Blog, Possibility, Features, CNCium } from './containers';
-import { CTA, Brand, Navbar, Header } from './components';
+import { Footer } from './containers';
+import { CTA, Navbar, Header, WWD } from './components';
 import './App.css';
 
 const App = () => {
@@ -10,12 +10,9 @@ const App = () => {
         <Navbar></Navbar>
         <Header></Header>
       </div>
-      <Brand></Brand>
-      <CNCium></CNCium>
-      <Features></Features>
-      <Possibility></Possibility>
+
+      <WWD></WWD>
       <CTA></CTA>
-      <Blog></Blog>
       <Footer></Footer>
     </div>
   );
