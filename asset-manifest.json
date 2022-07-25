@@ -1,15 +1,15 @@
 {
-  "main.css": "/CNC-website/static/css/main.85a94796.chunk.css",
-  "main.js": "/CNC-website/static/js/main.be83ada0.chunk.js",
-  "main.js.map": "/CNC-website/static/js/main.be83ada0.chunk.js.map",
+  "main.css": "/CNC-website/static/css/main.4f293a42.chunk.css",
+  "main.js": "/CNC-website/static/js/main.eccd7d41.chunk.js",
+  "main.js.map": "/CNC-website/static/js/main.eccd7d41.chunk.js.map",
   "runtime~main.js": "/CNC-website/static/js/runtime~main.ae007494.js",
   "runtime~main.js.map": "/CNC-website/static/js/runtime~main.ae007494.js.map",
   "static/js/2.984f40b8.chunk.js": "/CNC-website/static/js/2.984f40b8.chunk.js",
   "static/js/2.984f40b8.chunk.js.map": "/CNC-website/static/js/2.984f40b8.chunk.js.map",
   "index.html": "/CNC-website/index.html",
-  "precache-manifest.100264162fec0f7ec03f51ddbf934844.js": "/CNC-website/precache-manifest.100264162fec0f7ec03f51ddbf934844.js",
+  "precache-manifest.de1215ad3be6b9653af4270c98c15c4b.js": "/CNC-website/precache-manifest.de1215ad3be6b9653af4270c98c15c4b.js",
   "service-worker.js": "/CNC-website/service-worker.js",
-  "static/css/main.85a94796.chunk.css.map": "/CNC-website/static/css/main.85a94796.chunk.css.map",
+  "static/css/main.4f293a42.chunk.css.map": "/CNC-website/static/css/main.4f293a42.chunk.css.map",
   "static/media/ai1.png": "/CNC-website/static/media/ai1.114ec066.png",
-  "static/media/logo.svg": "/CNC-website/static/media/logo.a95f42a4.svg"
+  "static/media/logo.png": "/CNC-website/static/media/logo.4d4cc5ba.png"
 }
