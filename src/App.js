@@ -1,6 +1,6 @@
 import React from 'react';
-import { Footer } from './containers';
-import { CTA, Navbar, Header, WWD } from './components';
+import { Footer, Projects } from './containers';
+import { Process, Navbar, Header, WWD, Contact } from './components';
 import './App.css';
 
 const App = () => {
@@ -12,7 +12,9 @@ const App = () => {
       </div>
 
       <WWD></WWD>
-      <CTA></CTA>
+      <Process></Process>
+      <Contact></Contact>
+      <Projects></Projects>
       <Footer></Footer>
     </div>
   );
