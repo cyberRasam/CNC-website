@@ -39,6 +39,8 @@ const Process = () => {
             <div className="cncium_process_items-order-mobile">
               <h4>Delivery</h4>
             </div>
+          </div>
+          <div>
             <button type="button" className="cncium_process_contact">
               Contact us
             </button>

@@ -1,0 +1,74 @@
+.cncium_projects {
+  margin: 5rem auto;
+}
+
+.cncium_projects_header h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  margin: 5rem;
+  letter-spacing: -4%;
+}
+
+.cncium_projects_canvas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem;
+  padding: 0;
+}
+
+.cncium_projects_canvas-item {
+  flex: 2 0 30%;
+  background-color: var(--color-blog);
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.cncium_projects_canvas-item img {
+  margin: 0;
+  width: 100%;
+}
+
+.cncium_projects_canvas-txt {
+  max-width: 100%;
+}
+
+.cncium_projects_canvas-item h6 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  margin: 1rem;
+  color: #fff;
+}
+
+.description {
+  font-family: var(--font-family);
+  margin: auto 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.details {
+  margin: 1rem;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 25px;
+  color: #81afdd;
+}
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 490px) {
+}
+
+@media screen and (min-width: 1480px) {
+}

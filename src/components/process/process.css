@@ -1,5 +1,5 @@
 .cncium_process {
-  margin: 2.5rem 5rem;
+  margin: 4rem 5rem;
   padding: 1.5rem;
   border-radius: 10px;
 }
@@ -14,7 +14,7 @@
 }
 
 .cncium_process_box {
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem 2rem 2rem;
   border-top: 1px solid black;
 }
 
@@ -29,14 +29,16 @@
 .cncium_process_items {
   display: flex;
   flex-direction: row;
-  margin: -0.6rem 0 1rem 0;
+  margin: -0.6rem 0 0 0;
   width: 100%;
   align-items: stretch;
+  justify-content: space-between;
 }
 
 .cncium_process_items-order {
-  margin: 0 0.5rem 0 0;
+  margin: 0 1.5rem 0 0;
   padding: 0;
+  width: 100%;
 }
 
 .cncium_process_items-order h4 {
