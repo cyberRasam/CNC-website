@@ -13,8 +13,8 @@ const App = () => {
 
       <WWD></WWD>
       <Process></Process>
-      <Contact></Contact>
       <Projects></Projects>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
