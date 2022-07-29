@@ -71,7 +71,7 @@
 @media screen and (max-width: 830px) {
   .cncium_wwd_content-service {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: auto;
     justify-content: space-between;
   }
@@ -102,5 +102,25 @@
     font-weight: 300;
     font-size: 10px;
     line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cncium_wwd_content-service {
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cncium_wwd_content-service {
+    width: 60%;
+    flex-wrap: wrap;
+  }
+  .cncium_wwd_content-service p {
+    width: 100%;
+    margin: 1rem;
+  }
+  .cncium_wwd_content-service div {
+    justify-self: flex-start;
   }
 }
