@@ -95,12 +95,32 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 22px;
   }
   .cncium_wwd_content-service p {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 10px;
-    line-height: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cncium_wwd_content-service {
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .cncium_wwd_content-service {
+    width: 60%;
+    flex-wrap: wrap;
+  }
+  .cncium_wwd_content-service p {
+    width: 100%;
+    margin: 1rem;
+  }
+  .cncium_wwd_content-service div {
+    justify-self: flex-start;
   }
 }

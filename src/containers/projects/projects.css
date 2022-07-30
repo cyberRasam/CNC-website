@@ -87,10 +87,14 @@
   }
 }
 /*Smaller tablet or desktop*/
-@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 1050px) {
   .cncium_projects_canvas {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media screen and (max-width: 950px) {
 
   .cncium_projects_canvas-item h6 {
     font-size: 20px;
