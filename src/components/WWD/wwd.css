@@ -71,7 +71,7 @@
 @media screen and (max-width: 830px) {
   .cncium_wwd_content-service {
     display: flex;
-    width: 100%;
+    width: 80%;
     height: auto;
     justify-content: space-between;
   }
@@ -111,7 +111,11 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 440px) {
+=======
+@media screen and (max-width: 370px) {
+>>>>>>> 19184f76981b3cb433b799ed715fe7715c0f5b65
   .cncium_wwd_content-service {
     width: 60%;
     flex-wrap: wrap;
@@ -123,4 +127,8 @@
   .cncium_wwd_content-service div {
     justify-self: flex-start;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 19184f76981b3cb433b799ed715fe7715c0f5b65
