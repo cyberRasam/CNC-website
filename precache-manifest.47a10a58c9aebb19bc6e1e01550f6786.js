@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "674d42726de5102aec5c",
-    "url": "/CNC-website/static/css/main.ae754317.chunk.css"
+    "revision": "6ef507d44a98b4326f1c",
+    "url": "/CNC-website/static/css/main.7d1a182a.chunk.css"
   },
   {
-    "revision": "674d42726de5102aec5c",
+    "revision": "6ef507d44a98b4326f1c",
     "url": "/CNC-website/static/js/main.36c8ea5b.chunk.js"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/CNC-website/static/media/logo.4d4cc5ba.png"
   },
   {
-    "revision": "4a88c4366a46d255e166b4d24d5bc038",
+    "revision": "3e3e262d9dbe8fe3f872c20b47e16ff2",
     "url": "/CNC-website/index.html"
   }
 ];
