@@ -24,7 +24,7 @@
   justify-content: center;
 }
 
-label {
+.cncium_contact_label {
   display: block;
   color: #fff;
   font-family: var(--font-family);
@@ -33,26 +33,26 @@ label {
   line-height: 55px;
 }
 
-label {
+.cncium_contact_label {
   display: block;
   margin-bottom: -0.5rem;
 }
 
-form div input {
+.cncium_contact-form div input {
   width: 350px;
   height: 40px;
   left: 25px;
   top: 1950px;
 }
 
-form div input::placeholder {
+.cncium_contact-form div input::placeholder {
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
 }
 
-input,
-textarea {
+.left div input,
+.right div input .right div textarea {
   color: var(--color-footer);
   font-family: var(--font-family);
   padding: 1rem;
@@ -60,14 +60,14 @@ textarea {
   line-height: 12px;
 }
 
-input:focus,
-textarea:focus {
+.cncium_contact-form input:focus,
+.cncium_contact-form textarea:focus {
   outline: none;
   padding: 1rem;
   font-family: var(--font-family);
 }
 
-input[type='file'] {
+.cncium_contact-form input[type='file'] {
   display: inline-block;
   padding: 0;
   font-size: 16px;
@@ -78,8 +78,8 @@ input[type='file'] {
   text-align: center;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.cncium_contact-form input::-webkit-outer-spin-button,
+.cncium_contact-form input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -99,7 +99,7 @@ input[type='number'] {
   top: 1950px;
 }
 
-button {
+.cncium_contact-form button {
   padding: 1rem;
   margin: 2rem auto;
   width: 152px;

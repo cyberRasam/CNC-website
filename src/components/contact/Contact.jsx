@@ -9,11 +9,13 @@ const Contact = () => {
         <h1 className="gradient__text">Contact us</h1>
       </div>
       <div className="cncium_contact_form">
-        <form action="">
+        <form className="cncium_contact-form" action="">
           <div className="cncium_contact_form-items">
             <div className="left">
               <div>
-                <label htmlFor="Name">Name</label>
+                <label className="cncium_contact_label" htmlFor="Name">
+                  Name
+                </label>
                 <input
                   type="text"
                   name="name"
@@ -23,7 +25,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="Email">Email</label>
+                <label className="cncium_contact_label" htmlFor="Email">
+                  Email
+                </label>
                 <input
                   type="email"
                   name="email"
@@ -33,7 +37,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="Number">Phone number</label>
+                <label className="cncium_contact_label" htmlFor="Number">
+                  Phone number
+                </label>
                 <input
                   type="number"
                   name="number"
@@ -48,7 +54,9 @@ const Contact = () => {
 
             <div className="right">
               <div>
-                <label htmlFor="Message">Message</label>
+                <label className="cncium_contact_label" htmlFor="Message">
+                  Message
+                </label>
                 <textarea
                   className="message"
                   type="text"
@@ -57,7 +65,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="file">Choose file</label>
+                <label className="cncium_contact_label" htmlFor="file">
+                  Choose file
+                </label>
                 <input type="file" name="file" id="file" />
               </div>
               <Captcha></Captcha>
