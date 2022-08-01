@@ -123,3 +123,51 @@ input[type='number'] {
 
   cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+  .cncium_contact_header h1 {
+    font-size: 52px;
+    line-height: 70px;
+  }
+
+  .cncium_contact_label {
+    font-size: 20px;
+    line-height: 55px;
+  }
+
+  .cncium_contact-form div input {
+    width: 250px;
+    height: 35px;
+  }
+
+  .message {
+    width: 250px;
+    height: 80px;
+  }
+
+  .cncium_contact-form button {
+    font-size: 22px;
+    line-height: 28px;
+    width: 130px;
+    height: 40px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .cncium_contact_form-items {
+    flex-wrap: wrap;
+  }
+
+  .message {
+    width: 220px;
+    height: 80px;
+  }
+  .cncium_contact-form div input {
+    width: 220px;
+    height: 35px;
+  }
+  .right {
+    margin-left: 4rem;
+  }
+}

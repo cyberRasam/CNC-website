@@ -10,6 +10,7 @@ const App = () => {
       <ReCAPTCHA
         sitekey="6LcCKTEhAAAAAE2jSkhTwaFr9A72wNQoU-qbEWVX"
         onChange={onChange}
+        size="normal"
       />
     </div>
   );
