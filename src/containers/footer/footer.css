@@ -1,0 +1,51 @@
+.cncium_footer {
+  background: var(--color-footer);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cncium_footer_content {
+  display: flex;
+  align-items: center;
+}
+
+.cncium_footer_content-cc {
+  margin: 0 4rem;
+}
+
+.cncium_footer_content-cc img {
+  width: 87.56px;
+  height: 60.02px;
+}
+
+.cncium_footer_cc-icons a img {
+  width: 30px;
+  height: 30px;
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+
+.cncium_map_png img {
+  width: 229px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.footer_links h4 {
+  color: #fff;
+  font-family: 'Gilroy';
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.footer_links p {
+  color: #fff;
+  font-family: 'Gilroy-Medium';
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}

@@ -2,13 +2,17 @@ import React from 'react';
 import Captcha from './Captcha.jsx';
 
 function Form() {
+  const formId = 'FBFiNBpD';
+  const formSparkUrl = `https://submit-form.com/${formId}`;
+
   return (
     <div className="cncium_contact">
       <div className="cncium_contact_header">
         <h1 className="gradient__text">Contact us</h1>
       </div>
       <div className="cncium_contact_form">
-        <form className="cncium_contact-form" action="">
+        <form className="cncium_contact-form" action={formSparkUrl}>
+          <input type="hidden" name="_feedback.dark" value="true" />
           <div className="cncium_contact_form-items">
             <div className="left">
               <div>
@@ -16,8 +20,8 @@ function Form() {
                   Name
                 </label>
                 <input
-                  type="text"
                   name="name"
+                  type="text"
                   id="name"
                   placeholder="Enter your full name"
                   required
@@ -63,17 +67,27 @@ function Form() {
                   id="message"
                 />
               </div>
-              <div>
-                <label className="cncium_contact_label" htmlFor="file">
-                  Choose file
-                </label>
-                <input type="file" name="file" id="file" />
+              <div className="cncium_file_upload">
+                <input
+                  type="hidden"
+                  role="uploadcare-uploader"
+                  data-public-key="e6b8ffafabf948c5c0e1"
+                  data-tabs="file camera url facebook gdrive gphotos"
+                  name="file"
+                  id="file"
+                />
               </div>
               <Captcha data-size="compact"></Captcha>
             </div>
           </div>
 
-          <button type="submit">Send</button>
+          <button
+            id="submit-form"
+            className="cncium_contact_submit-button"
+            type="submit"
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>

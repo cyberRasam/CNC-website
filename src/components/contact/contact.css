@@ -67,17 +67,6 @@
   font-family: var(--font-family);
 }
 
-.cncium_contact-form input[type='file'] {
-  display: inline-block;
-  padding: 0;
-  font-size: 16px;
-  line-height: 12px;
-  color: var(--color-footer);
-  font-family: var(--font-family);
-  cursor: pointer;
-  text-align: center;
-}
-
 .cncium_contact-form input::-webkit-outer-spin-button,
 .cncium_contact-form input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -99,7 +88,7 @@ input[type='number'] {
   top: 1950px;
 }
 
-.cncium_contact-form button {
+.cncium_contact_submit-button {
   padding: 1rem;
   margin: 2rem auto;
   width: 152px;
@@ -110,10 +99,10 @@ input[type='number'] {
   background: #ff4820;
   border-radius: 5px;
 
-  font-family: 'Manrope';
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
   display: flex;
   align-items: center;
@@ -121,6 +110,46 @@ input[type='number'] {
   text-align: center;
   color: #fff;
 
+  cursor: pointer;
+}
+
+.cncium_contact_submit-button:hover {
+  transform: scale(1.05);
+}
+
+.cncium_file_upload button {
+  font-family: var(--font-family);
+  background: #ff4820;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.cncium_file_upload button::-webkit-outer-spin-button,
+.cncium_file_upload button::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cncium_file_upload button:hover {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 
@@ -145,12 +174,20 @@ input[type='number'] {
     height: 80px;
   }
 
-  .cncium_contact-form button {
+  .cncium_contact_submit-button {
     font-size: 22px;
     line-height: 28px;
     width: 130px;
     height: 40px;
     border: none;
+  }
+  .cncium_file_upload button {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .cncium_file_upload button:hover {
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 
@@ -169,5 +206,13 @@ input[type='number'] {
   }
   .right {
     margin-left: 4rem;
+  }
+  .cncium_file_upload button {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .cncium_file_upload button:hover {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
