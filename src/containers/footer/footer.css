@@ -49,3 +49,16 @@
   margin-bottom: 0.25rem;
   text-align: center;
 }
+
+.cncium_footer_contact-info img {
+  width: 230px;
+  height: 90px;
+}
+.cncium_copyright {
+  margin: -1rem;
+  text-align: center;
+  color: #fff;
+  box-sizing: initial;
+  background: var(--color-footer);
+  padding-bottom: 1rem;
+}
