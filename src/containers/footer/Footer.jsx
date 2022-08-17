@@ -6,7 +6,9 @@ import instaIcon from '../../assets/instagram-icon.png';
 import linkedinIcon from '../../assets/linkedin-icon.png';
 import fbIcon from '../../assets/fb-icon.png';
 import gmap from '../../assets/google-map.png';
-import infoPic from '../../assets/contact-info.png';
+import locpin from '../../assets/location-pin.svg';
+import emailIcon from '../../assets/email-icon.svg';
+import phoneIcon from '../../assets/phone-icon.svg';
 
 const location = {
   address: '66 McDonald Cres, Bassendean WA 6054, Australia',
@@ -65,7 +67,18 @@ function Footer() {
           </div>
           <div className="cncium_footer_content-cc">
             <div className="cncium_footer_contact-info">
-              <img src={infoPic} alt="information" />
+              <div className="cncium_footer_contact-info-items">
+                <img src={locpin} alt="Address" />
+                <p> 66 McDonald Cres, Bassendean WA 6054</p>
+              </div>
+              <div className="cncium_footer_contact-info-items">
+                <img id="email-icon" src={emailIcon} alt="Email-Address" />
+                <p> Info@perthcnc.com</p>
+              </div>
+              <div className="cncium_footer_contact-info-items">
+                <img src={phoneIcon} alt="phone-number" />
+                <p> (02) 9876 5432</p>
+              </div>
             </div>
           </div>
         </div>

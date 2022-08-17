@@ -1,4 +1,5 @@
 .cncium_footer {
+  
   background: var(--color-footer);
   height: 50vh;
   display: flex;
@@ -36,6 +37,7 @@
 .footer_links h4 {
   color: #fff;
   font-family: 'Gilroy';
+  font-size: 22px;
   font-weight: 800;
   text-align: center;
   margin-bottom: 0.75rem;
@@ -44,21 +46,126 @@
 .footer_links p {
   color: #fff;
   font-family: 'Gilroy-Medium';
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
   margin-bottom: 0.25rem;
   text-align: center;
 }
 
-.cncium_footer_contact-info img {
-  width: 230px;
-  height: 90px;
-}
 .cncium_copyright {
-  margin: -1rem;
+  margin-bottom: -1rem;
+  border: 1px solid var(--color-footer); 
+  font-size: 22px;
   text-align: center;
   color: #fff;
   box-sizing: initial;
   background: var(--color-footer);
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
+
+.cncium_footer_contact-info-items {
+  margin-top: 0.3rem;
+ color: #fff;
+}
+.cncium_footer_contact-info-items img {
+  width: 18px;
+  height: 18px;
+  
+}
+.cncium_footer_contact-info-items p {
+display: inline;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+
+#email-icon {
+  margin-bottom:-0.2rem;
+  
+  width: 21px;
+  height: 20px;
+ 
+}
+
+
+@media screen and (max-width:1270px) {
+    .cncium_footer {
+      height: 30vh;
+    }
+    .cncium_footer_content-cc {
+      margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width:1050px) {
+  .cncium_footer_content-cc img {
+    width: 78.56px;
+    height: 54.02px;
+  }
+  
+  .cncium_footer_cc-icons a img {
+    width: 27px;
+    height: 27px;
+    padding: 0.2rem;
+    margin-top: 1rem;
+  }
+  
+  .cncium_map_png img {
+    width: 206px;
+    height: 117px;
+    border-radius: 10px;
+  }
+  
+  .footer_links h4 {
+    font-size: 20px;
+  }
+  
+  .footer_links p {
+    font-size: 14px;
+  }
+  
+  
+  .cncium_copyright {
+    font-size: 18px;
+    
+  }
+  
+  .cncium_footer_contact-info-items img {
+    width: 16.2px;
+    height: 16.2px;
+  }
+  .cncium_footer_contact-info-items p {
+  
+  font-size: 14px;
+  line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .cncium_footer_content {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .cncium_footer {
+    box-sizing: content-box;
+    height: fit-content;
+  }
+  .cncium_footer_content-cc {
+    margin: 2rem;
+  }
+  .cncium_copyright {
+    font-size: 16px;
+    
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .cncium_footer_content-cc {
+    margin: 2rem 0;
+  }
+  
+}
+
+

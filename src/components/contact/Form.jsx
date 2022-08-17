@@ -77,7 +77,7 @@ function Form() {
                   id="file"
                 />
               </div>
-              <Captcha data-size="compact"></Captcha>
+              <Captcha onloadCallback data-size="compact"></Captcha>
             </div>
           </div>
 

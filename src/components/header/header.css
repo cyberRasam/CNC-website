@@ -88,6 +88,9 @@
     height: 100%;
 }
 
+#submit-email:disabled { 
+    background-color: black;
+}
 
 @media screen and (max-width: 1050px) {
     .cncium__header {
