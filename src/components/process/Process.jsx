@@ -3,7 +3,7 @@ import './process.css';
 
 const Process = () => {
   return (
-    <div className="cncium_process gradient__section">
+    <div id="process" className="cncium_process gradient__section">
       <h2 className="cncium_process_header">Our ordering process</h2>
       <div className="cncium_process_box">
         <div className="cncium_process_items">
@@ -29,7 +29,7 @@ const Process = () => {
             <div className="cncium_process_items-order-mobile">
               <h4>Production</h4>
               <p>
-                We select the best manufacturer for your order, and production
+                We select the best configuration for your order, and production
                 begins
               </p>
             </div>
@@ -41,9 +41,11 @@ const Process = () => {
             </div>
           </div>
           <div>
-            <button type="button" className="cncium_process_contact">
-              Contact us
-            </button>
+            <a href="#form">
+              <button type="button" className="cncium_process_contact">
+                Contact us
+              </button>
+            </a>
           </div>
         </div>
       </div>

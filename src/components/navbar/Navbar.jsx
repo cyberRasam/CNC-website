@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 
 // BEM --> Block element modifier
 const Menu = () => (
@@ -10,13 +10,13 @@ const Menu = () => (
       <a href="#services">Services</a>
     </p>
     <p>
-      <a href="#Process">How it works</a>
+      <a href="#process">How it works</a>
     </p>
     <p>
-      <a href="#About us">About us</a>
+      <a href="#intro">About us</a>
     </p>
     <p>
-      <a href="#Projects">Projects</a>
+      <a href="#projects">Projects</a>
     </p>
   </>
 );
@@ -34,8 +34,9 @@ function Navbar() {
         </div>
       </div>
       <div className="cncium__navbar-contact">
-        <p>Contact us</p>
-        <button type="button">Get a quote</button>
+        <a href="#form">
+          <button type="button">Contact us</button>
+        </a>
       </div>
       <div className="cncium__navbar-menu">
         {toggleMenu ? (
@@ -56,8 +57,9 @@ function Navbar() {
             <div className="cncium__navbar-menu_container-links">
               <Menu></Menu>
               <div className="cncium__navbar-menu_container-links-contact">
-                <p>Contact us</p>
-                <button type="button">Get a quote</button>
+                <a href="#form">
+                  <button type="button">Contact us</button>
+                </a>
               </div>
             </div>
           </div>

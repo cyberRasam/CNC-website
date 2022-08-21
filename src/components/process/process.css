@@ -65,6 +65,11 @@
   cursor: pointer;
 }
 
+.cncium_process_contact:hover {
+  background: var(--color-footer
+  );
+}
+
 /**/
 @media screen and (max-width: 950px) {
   .cncium_process {

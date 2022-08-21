@@ -10,7 +10,7 @@ function Form() {
       <div className="cncium_contact_header">
         <h1 className="gradient__text">Contact us</h1>
       </div>
-      <div className="cncium_contact_form">
+      <div id="form" className="cncium_contact_form">
         <form className="cncium_contact-form" action={formSparkUrl}>
           <input type="hidden" name="_feedback.dark" value="true" />
           <div className="cncium_contact_form-items">

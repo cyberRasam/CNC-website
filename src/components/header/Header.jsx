@@ -12,14 +12,17 @@ const Header = () => {
   const formSparkUrl = `https://submit-form.com/${formId}`;
 
   return (
-    <div className="cncium__header section__padding" id="about">
+    <div id="intro" className="cncium__header section__padding">
       <div className="cncium__header-content">
-        <h1 className="gradient__text">Perth CNC machining services</h1>
+        <h1 className="gradient__text">
+          CNC machining services in Perth, Australia
+        </h1>
         <p>
-          High Quality CNC Machining Services in Perth Western Australia,
-          servicing the Motorsport, Mining and Oil & Gas sectors. From
-          prototypes to production runs, we can assist with all your engineering
-          and CNC machining needs.
+          We provide High Quality CNC Machining Services in Perth, Australia.
+          Servicing the light industrial / enthusiast / hobbyist
+          / agricultural/ reverse engineering for hard-to-obtain parts, from
+          prototypes to production runs, we can assist with your CNC machining
+          needs.
         </p>
         <form
           id="email-req"

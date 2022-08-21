@@ -55,7 +55,7 @@
 .cncium_copyright {
   margin-bottom: -1rem;
   border: 1px solid var(--color-footer); 
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   color: #fff;
   box-sizing: initial;
@@ -127,7 +127,7 @@ line-height: 22px;
   
   
   .cncium_copyright {
-    font-size: 18px;
+    font-size: 14px;
     
   }
   
@@ -156,7 +156,7 @@ line-height: 22px;
     margin: 2rem;
   }
   .cncium_copyright {
-    font-size: 16px;
+    font-size: 12px;
     
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import MapSection from './Map';
 import instaIcon from '../../assets/instagram-icon.png';
 import linkedinIcon from '../../assets/linkedin-icon.png';
