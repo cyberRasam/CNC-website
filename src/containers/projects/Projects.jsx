@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import sample1 from '../../assets/sample1.jpg';
 import sample2 from '../../assets/CnciumGif.gif';
+import sample3 from '../../assets/GifBitcoin.gif';
 
 function Projects() {
   return (
@@ -48,7 +49,7 @@ function Projects() {
         </div>
         <div className="cncium_projects_canvas-item">
           <div className="cncium_projects_canvas-img">
-            <img src={sample1} alt="5-axis cnc" />
+            <img src={sample3} alt="5-axis cnc" />
           </div>
           <div className="cncium_projects_canvas-txt">
             <h6>5 axis CNC machining in Perth Australia</h6>

@@ -92,6 +92,19 @@
     background-color: black;
 }
 
+@media screen and (max-width: 1250px) {
+    .cncium__header {
+        flex-direction: column;
+    }
+    .cncium__header-content {
+        margin: 0 0 3rem ;
+    }
+    .cncium__header-content-image img {
+        width: 75%;
+        height: 75%;
+    }
+}
+
 @media screen and (max-width: 1050px) {
     .cncium__header {
         flex-direction: column;

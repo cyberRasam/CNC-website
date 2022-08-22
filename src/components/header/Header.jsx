@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './header.css';
 import ai1 from '../../assets/ai1.png';
 import Captcha from '../contact/Captcha.jsx';
-import ReCAPTCHA from 'react-google-recaptcha';
-import { useState } from 'react';
-import { useRef } from 'react';
-import Reaptcha from 'reaptcha';
 
 const Header = () => {
   const formId = 'zgSoHLR5';

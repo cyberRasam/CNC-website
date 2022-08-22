@@ -1,7 +1,6 @@
 import React from 'react';
 import './footer.css';
 import logo from '../../assets/logo.svg';
-import MapSection from './Map';
 import instaIcon from '../../assets/instagram-icon.png';
 import linkedinIcon from '../../assets/linkedin-icon.png';
 import fbIcon from '../../assets/fb-icon.png';
@@ -9,12 +8,6 @@ import gmap from '../../assets/google-map.png';
 import locpin from '../../assets/location-pin.svg';
 import emailIcon from '../../assets/email-icon.svg';
 import phoneIcon from '../../assets/phone-icon.svg';
-
-const location = {
-  address: '66 McDonald Cres, Bassendean WA 6054, Australia',
-  lat: -31.904507372335893,
-  lng: 115.93007815112705,
-};
 
 function Footer() {
   return (
@@ -47,6 +40,7 @@ function Footer() {
             <div className="cncium_map_png">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.google.com/maps/place/66+McDonald+Cres,+Bassendean+WA+6054,+Australia/@-31.9053856,115.9264236,15.92z/data=!4m5!3m4!1s0x2a32ba0fa54d24df:0xe54653d0aa6c1947!8m2!3d-31.9057825!4d115.932814"
               >
                 <img src={gmap} alt="google map link" />
