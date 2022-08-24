@@ -3,7 +3,7 @@ import './wwd.css';
 
 const WWD = () => {
   return (
-    <div id="services" className="cncium_wwd">
+    <div id="wwd" className="cncium_wwd">
       <div className="cncium_wwd_header">
         <h1 className="gradient__text_two">What we do</h1>
         <p>

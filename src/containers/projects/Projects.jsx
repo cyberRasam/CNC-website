@@ -52,15 +52,20 @@ function Projects() {
             <img src={sample3} alt="5-axis cnc" />
           </div>
           <div className="cncium_projects_canvas-txt">
-            <h6>5 axis CNC machining in Perth Australia</h6>
+            <h6>Zero Defects and Greater Accuracy</h6>
             <p className="description">
-              For complex and time-sensitive machined parts, 5-axis CNC machines
-              offer unparalleled flexibility and speed.
+              Autonomous CNC Milling process eliminates the potential of human
+              error by running from a digital template or model.
             </p>
             <p className="details">
-              5-axis machining can be used on all manner of titanium and
-              aluminum aerospace parts, including: <br />
-              <br /> Bulkheads <br /> Fuselage sections Landing gear components
+              Fabricate complex designs with high details
+              <br />
+              Final components with best quality
+              <br /> <br />
+              Custom CNC Milling – Using high-end machines that make use of a
+              rotating cylindrical cutting tool, we’re able to execute a variety
+              of functions, including drilling, tapping, slotting, keyways and
+              contouring, as well as gear cutting and manufacturing.
             </p>
           </div>
         </div>
