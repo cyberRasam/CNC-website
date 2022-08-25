@@ -7,10 +7,10 @@ import logo from '../../assets/logo.svg';
 const Menu = () => (
   <>
     <p>
-      <a href="#services">Services</a>
+      <a href="#wwd">Services</a>
     </p>
     <p>
-      <a href="#wwd">How it works</a>
+      <a href="#process">How it works</a>
     </p>
     <p>
       <a href="#intro">About us</a>

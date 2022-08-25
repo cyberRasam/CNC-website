@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.lenk:hover .lenk:active{
+  user-select: none;
+}
+
 .cncium_footer_content {
   display: flex;
   align-items: center;
@@ -161,11 +165,5 @@ line-height: 22px;
   }
 }
 
-@media screen and (max-width: 380px) {
-  .cncium_footer_content-cc {
-    margin: 2rem 0;
-  }
-  
-}
 
 

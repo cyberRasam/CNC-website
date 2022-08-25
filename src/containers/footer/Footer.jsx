@@ -50,7 +50,10 @@ function Footer() {
           <div className="cncium_footer_content-cc footer_links">
             <h4>Cncium</h4>
             <p>
-              <a href="#contact"> Contact us</a>
+              <a className="lenk" href="#form">
+                {' '}
+                Contact us
+              </a>
             </p>
             <p>
               <a href="#wwd"> What we do</a>
