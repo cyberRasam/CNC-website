@@ -3,6 +3,7 @@ import './projects.css';
 import sample1 from '../../assets/sample1.jpg';
 import sample2 from '../../assets/CnciumGif.gif';
 import sample3 from '../../assets/GifBitcoin.gif';
+import inbox from '../../assets/in-box.jpg';
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
       <div className="cncium_projects_canvas">
         <div className="cncium_projects_canvas-item">
           <div className="cncium_projects_canvas-img">
-            <img src={sample1} alt="5-axis cnc" />
+            <img src={sample1} alt="3-axis cnc" />
           </div>
           <div className="cncium_projects_canvas-txt">
             <h6>3 axis CNC machining in Perth Australia</h6>
@@ -32,18 +33,21 @@ function Projects() {
         </div>
         <div className="cncium_projects_canvas-item">
           <div className="cncium_projects_canvas-img">
-            <img src={sample2} alt="5-axis cnc" />
+            <img src={sample2} alt="cnc aluminum working" />
           </div>
           <div className="cncium_projects_canvas-txt">
-            <h6>5 axis CNC machining in Perth Australia</h6>
+            <h6>Easy to make multiple parts with exact dimension</h6>
             <p className="description">
-              For complex and time-sensitive machined parts, 5-axis CNC machines
-              offer unparalleled flexibility and speed.
+              The best option for producing high quality small parts for your
+              product
             </p>
             <p className="details">
-              5-axis machining can be used on all manner of titanium and
-              aluminum aerospace parts, including: <br />
-              <br /> Bulkheads <br /> Fuselage sections Landing gear components
+              If 3d printing results cannot match your needs with the material
+              so it's best to make your parts with a durable one
+              <br />
+              <br /> parts for small motors
+              <br />
+              <br /> <img src={inbox} alt="sample of small parts" />
             </p>
           </div>
         </div>

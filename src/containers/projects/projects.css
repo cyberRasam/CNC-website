@@ -63,6 +63,12 @@
   color: #81afdd;
 }
 
+.details img {
+  width: 30%;
+  height: 30%;
+  margin-bottom: -0.5rem;
+}
+
 
 /*Desktop small*/
 @media screen and (max-width: 1250px) {
@@ -86,12 +92,20 @@
     line-height: 20px;
     
   }
+  .details img {
+    width: 40%;
+    height: 40%;
+  }
 }
 /*Smaller tablet or desktop*/
 
 @media screen and (max-width: 1050px) {
   .cncium_projects_canvas {
     grid-template-columns: 1fr 1fr;
+  }
+  .details img {
+    width: 40%;
+    height: 40%;
   }
 }
 
@@ -100,6 +114,10 @@
   .cncium_projects_canvas-item h6 {
     font-size: 20px;
   line-height: 30px;
+  }
+  .details img {
+    width: 40%;
+    height: 40%;
   }
 }
 
@@ -131,12 +149,20 @@
   .cncium_projects_canvas-item img {
     width: 100%;
   }
+  .details img {
+    width: 40%;
+    height: 40%;
+  }
 }
 
 @media screen and (max-width: 490px) {
   .cncium_projects_header h1 {font-weight: 700;
     font-size: 46px;
     line-height: 44px;}
+    .details img {
+      width: 40%;
+      height: 40%;
+    }
   
 }
 
