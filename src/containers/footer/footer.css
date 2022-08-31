@@ -86,7 +86,6 @@ line-height: 22px;
 
 #email-icon {
   margin-bottom:-0.2rem;
-  
   width: 21px;
   height: 20px;
  
@@ -131,8 +130,7 @@ line-height: 22px;
   
   
   .cncium_copyright {
-    font-size: 14px;
-    
+    font-size: 14px; 
   }
   
   .cncium_footer_contact-info-items img {
@@ -140,13 +138,12 @@ line-height: 22px;
     height: 16.2px;
   }
   .cncium_footer_contact-info-items p {
-  
   font-size: 14px;
   line-height: 18px;
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 960px) {
   .cncium_footer_content {
     flex-wrap: wrap;
     justify-content: center;
@@ -161,9 +158,5 @@ line-height: 22px;
   }
   .cncium_copyright {
     font-size: 12px;
-    
   }
 }
-
-
-
