@@ -1,5 +1,5 @@
 {
-  "main.css": "/CNC-website/static/css/main.e817a669.chunk.css",
+  "main.css": "/CNC-website/static/css/main.d405d6b4.chunk.css",
   "main.js": "/CNC-website/static/js/main.1a164b0b.chunk.js",
   "main.js.map": "/CNC-website/static/js/main.1a164b0b.chunk.js.map",
   "runtime~main.js": "/CNC-website/static/js/runtime~main.ae007494.js",
@@ -7,9 +7,9 @@
   "static/js/2.98f7a675.chunk.js": "/CNC-website/static/js/2.98f7a675.chunk.js",
   "static/js/2.98f7a675.chunk.js.map": "/CNC-website/static/js/2.98f7a675.chunk.js.map",
   "index.html": "/CNC-website/index.html",
-  "precache-manifest.7c9182b005550bceda653b29d1256db6.js": "/CNC-website/precache-manifest.7c9182b005550bceda653b29d1256db6.js",
+  "precache-manifest.c33c23a6165a901872fd815cd66d9d2f.js": "/CNC-website/precache-manifest.c33c23a6165a901872fd815cd66d9d2f.js",
   "service-worker.js": "/CNC-website/service-worker.js",
-  "static/css/main.e817a669.chunk.css.map": "/CNC-website/static/css/main.e817a669.chunk.css.map",
+  "static/css/main.d405d6b4.chunk.css.map": "/CNC-website/static/css/main.d405d6b4.chunk.css.map",
   "static/media/CnciumGif.gif": "/CNC-website/static/media/CnciumGif.278c9f90.gif",
   "static/media/GifBitcoin.gif": "/CNC-website/static/media/GifBitcoin.27f032a7.gif",
   "static/media/ai1.png": "/CNC-website/static/media/ai1.114ec066.png",
